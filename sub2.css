@@ -1,0 +1,215 @@
+
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+ }
+ 
+ .nanumbarungothic * {
+  font-family: 'NanumBarunGothic', sans-serif;
+ }
+ 
+ * {margin: 0;padding: 0;}
+ 
+ *{
+   margin:0;
+   padding:0;}
+   
+   a{ text-decoration:none;
+    }
+  ul,ol{list-style: none;}
+ 
+  body{
+    font-family: " NanumBarunGothic";
+    font-size:15px;
+    line-height:24px;
+ 
+ 
+    color:#131212;
+    text-align: center;
+    min-width:1350px;}
+ 
+ 
+ /*header*/
+ 
+ 
+ #header{height: 80px; width:1320px; margin:0 auto; 
+ position: relative;/*로고포지션의 부모
+ 기준*/ padding: 10px 0;}
+ 
+  .logo{ float: left; position: absolute; left: 50%; top: 30px;  transform: translateX(-50%)}/*가로길이의 절반만큼 앞으로 이동*/
+ .list1{float: right;}
+  .list1 li{ float: left;padding: 10px; }
+ .list1 li a{ font-size: 13px ; color: #666;}
+ 
+ 
+ 
+ 
+ 
+ #nav{ clear: both; height: 52px;}
+ #navin{ width: 1320px ; margin: 0 auto; }
+ 
+  #navin>ul>li{ float: left;  padding: 15px 0;  text-align: center; width: 20%; font-size: 18px; font-weight: bold;}
+ #navin>ul>li>a{ color: rgb(61, 29, 29);}
+ 
+ .sub li a{display: block; padding: 10px 0; background: rgb(160, 95, 35); color: #fff; font-size: 12px; font-weight: normal; border-top: 1px solid rgba(255,255,255, 0.3); border-bottom:1px solid rgba(0,0,0, 0.3) ;}
+ .sub li a:hover{ background: rgb(236, 229, 198); color: rgb(83, 69, 6); transition: all 1s; }
+ 
+ .sub{ position: absolute; top: 52px; left: 0; width: 100%;}
+ 
+ #navin>ul>li{ position: relative; /*서브메뉴포지션기준*/}
+ .sub{ opacity: 0; transform: scaleY(0); transform-origin: top; /* 스케일의 기준점 변경 호버가 아니라 서브에 지정해야*/} /*투명도와 스케일속성으로 높이를 0으로 만들어 안보이개 한다*/
+ #navin>ul>li:hover>.sub{ opacity: 1; transform: scaleY(1); transition: all 1s;}
+ 
+ 
+
+ h3{ font-size: 16px; padding: 30px 0 5px;font-weight:bold; text-align: center;}
+ .product p{ font-size: 20px; color: #744f49;padding: 5px 0 20px; text-align: center;}
+ 
+ .product{ float: left; width: 300px; height: 400px; background: url(images/bgimg1.png) no-repeat center center;
+   
+   background-size: 10px;
+ }
+ .menu_box:hover .pro{transform: scale(1.2,1.2);
+             transition: all 1s;}
+ 
+
+
+
+
+
+         #set{ margin:0 auto;  width: 1320px;
+          padding:50px;
+          height:500px; 
+        }
+        
+        .menu_box{
+          width:33%;
+          float:left;
+          text-align:center;
+        }
+        
+        .menu_box p{
+          color:rgb(114, 7, 7);
+          padding-top:10px 0 20px;
+        }
+
+
+
+ 
+         #shop ul { padding: 10px; height: 30px; display: inline-block;}
+ #shopin ul li{ float: left; padding: 0 20px;}
+ 
+ #shopin ul li a{display: block;  font-size: 17px; color: rgb(56, 55, 55); }
+ 
+ #shopin ul li:hover{ background-color:#744f49; color: white;}
+ 
+ 
+ #about{ clear: both; margin: 0 auto; width: 1320px; height: 400px; background-color:#fbf2ee ;}
+ .brandimg{ float: left; width: 50%; }
+ .brandtext{ float: right; width: 50% ;height: 661px; background-color:#f6ddd1 ; padding: 20px; padding-top: 180px; box-sizing: border-box;}
+ 
+ h2{ font-size: 18px; text-align: center; padding: 15px 0 30px;}
+ h1{ font-size: 35px; font-weight: bold;  text-align: center; padding: 80px 0 30px;}
+ .brandtext p{ font-size: 16px; padding:20px ;  text-align: left;  line-height: 25px;}
+ 
+.btn2{display:inline-block; background-color: white; color: #744f49;
+	                                             
+
+  text-align: center;
+           padding: 5px 20px;
+           border-radius: 16px;
+
+           
+
+
+           
+ font-weight:bold;
+ font-size:16px;
+ margin-top:40px;}
+
+ .btn2:hover{background-color: #744f49;;
+   color: white;  }
+ 
+ 
+ #sc{ clear: both; margin: 0 auto; width: 1320px; height: 950px; background-color:#fbf2ee ; }
+ 
+ .scimg{ float: left; width: 50%;}
+ .sctext{ float: right; background-color:#f6ddd1 ;
+    width: 50%; width: 50% ; height: 525px; padding: 20px; padding-top: 180px; box-sizing: border-box;}
+ 
+ .sctext p{ font-size: 16px; padding:20px ;  text-align: left;  line-height: 25px;}
+ 
+ 
+ 
+ 
+ 
+ #review{ background:blanchedalmond ; padding-bottom: 50px; clear: both; }
+  .reviewin{ margin: 0 auto; width: 1320px;  height: 400px; }
+  .re1,.re2,.re3,.re4{ width: 25%; float: left;}
+ 
+ 
+
+
+  
+ #footer_inner{ clear: both;
+   width:1320px;
+   margin:0 auto;
+ }
+ 
+ .copyright ul li{
+   float:left;
+   padding-right:10px;
+ }
+ .copyright ul li a{
+   color:#ccc;
+ }
+ .copyright p{
+   padding-top:30px;
+   clear:both;
+   color:#ccc;
+ }
+ 
+ .sns li{
+   float:left;
+   padding-left:5px;
+   opacity:0.5;
+ }
+ .sns li:hover{
+   opacity:1;
+   transition:all 0.5s;
+ }
+ 
+ .copyright{
+   float:left; padding-top: 20px;
+ }
+ .sns{
+   float:right;
+ }
+ #footer_inner p{ clear: both; text-align: left; color: #aaa; padding: 30px 0;}
+ 
+ #footer{
+   background:#522b19;
+   height:100px;
+   padding:30px 0;
+ }
+ 

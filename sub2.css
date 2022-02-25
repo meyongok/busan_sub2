@@ -102,7 +102,7 @@
 
 
 
-         #set{ margin:0 auto;  width: 1320px;
+         #set1,#set2,#set3{ margin:0 auto;  width: 1320px;
           padding:50px;
           height:500px; 
         }

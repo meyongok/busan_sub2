@@ -186,46 +186,53 @@
  
 
 
+
+  #footer{clear: both;
+    background:#522b19;
+    height:170px;
+    
+  }
   
- #footer_inner{ clear: both;
-   width:1320px;
-   margin:0 auto;
- }
- 
- .copyright ul li{
-   float:left;
-   padding-right:10px;
- }
- .copyright ul li a{
-   color:#ccc;
- }
- .copyright p{
-   padding-top:30px;
-   clear:both;
-   color:#ccc;
- }
- 
- .sns li{
-   float:left;
-   padding-left:5px;
-   opacity:0.5;
- }
- .sns li:hover{
-   opacity:1;
-   transition:all 0.5s;
- }
- 
- .copyright{
-   float:left; padding-top: 20px;
- }
- .sns{
-   float:right;
- }
- #footer_inner p{ clear: both; text-align: left; color: #aaa; padding: 30px 0;}
- 
- #footer{
-   background:#522b19;
-   height:200px;
-   padding:30px 0;
- }
- 
+   
+  #footer_inner{
+    width:1320px;
+    margin:0 auto;
+    padding-top: 30px;
+  }
+  
+  .copyright ul li{
+    float:left;
+    padding-right:10px;
+  }
+  .copyright ul li a{
+    color:#ccc;
+  }
+  
+  .copyright li a:hover{
+   color: #fff;
+  }
+  
+  .copyright p{
+    padding-top:20px;
+    clear:both;
+    color:#ccc;
+  }
+  
+  .sns li{
+    float:left;
+    padding-left:5px;
+    opacity:0.5;
+  }
+  .sns li:hover{
+    opacity:1;
+    transition:all 0.5s;
+  }
+  
+  .copyright{
+    float:left; padding-top: 20px;
+  }
+  .sns{
+    float:right;
+  }
+  #footer_inner p{ clear: both; text-align: left; color: #fff; padding: 20px 0;}
+  
